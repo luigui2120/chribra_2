@@ -29,12 +29,11 @@ echo '
 '| lolcat -a -d 20
 sleep 3
 	echo -e -n "${rojo}
-             		      ┌═══════════════════════┐
-            		      █${blanco}  Tiene una cuenta Y/N ${rojo}█
-            		      └═══════════════════════┘
-                   "${blanco}
-	read x
-
+  ┌═══════════════════════┐
+  █${blanco}  Tiene una cuenta Y/N ${rojo}█
+  └═══════════════════════┘
+     "${blanco}
+   read x
 	case "$x" in
 		"Y" | "y")
 	clear	
